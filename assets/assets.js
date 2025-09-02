@@ -134,143 +134,144 @@ export const productsDummyData = [
   {
     "_id": "67a1f4e43f34a77b6dde9144",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "Apple AirPods Pro 2nd gen",
-    "description": "Apple AirPods Pro (2nd Gen) with MagSafe Case (USB-C) provide excellent sound, active noise cancellation, and a comfortable fit. The USB-C case ensures quick charging, and they pair seamlessly with Apple devices for an effortless audio experience.",
+    "name": "Cerveja Corona 355ml",
+    "description": "Cerveja Corona Extra é uma cerveja leve e refrescante, perfeita para momentos de descontração. Com um sabor suave e equilibrado, é ideal para acompanhar refeições leves ou para ser apreciada em dias quentes. Sua garrafa transparente destaca a cor dourada da cerveja, tornando-a visualmente atraente. A Corona Extra é uma escolha popular entre os amantes de cerveja que buscam uma experiência refrescante e agradável.",
     "price": 499.99,
     "offerPrice": 399.99,
-    "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/k4dafzhwhgcn5tnoylrw.webp",
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/j212frakb8hdrhvhajhg.webp",
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/imwuugqxsajuwqpkegb5.webp",
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/k1oqaslw5tb3ebw01vvj.webp"
+    "image": [assets.header_macbook_image,
+      // "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/k4dafzhwhgcn5tnoylrw.webp",
+      // "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/j212frakb8hdrhvhajhg.webp",
+      // "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/imwuugqxsajuwqpkegb5.webp",
+      // "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/k1oqaslw5tb3ebw01vvj.webp"
     ],
-    "category": "Earphone",
+    "category": "Bebida",
     "date": 1738667236865,
     "__v": 0
   },
   {
     "_id": "67a1f52e3f34a77b6dde914a",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "Bose QuietComfort 45",
-    "description": "The Bose QuietComfort 45 headphones are engineered for exceptional sound quality and unparalleled noise cancellation. With a 24-hour battery life and comfortable, lightweight design, these headphones deliver premium audio for any environment. Whether on a flight, in the office, or at home, the Bose QC45 blocks out distractions, offering an immersive listening experience.",
+    "name": "Cerveja Budweiser 355ml",
+    "description": "Cerveja Budweiser é uma cerveja americana do estilo American Lager, conhecida por seu sabor suave e refrescante. Com um equilíbrio perfeito entre malte e lúpulo, a Budweiser oferece uma experiência de degustação agradável e fácil de beber. Sua cor dourada clara e espuma cremosa tornam-na visualmente atraente. A Budweiser é uma escolha popular para quem busca uma cerveja leve, ideal para acompanhar refeições variadas ou para ser apreciada em momentos de descontração.",
     "price": 429.99,
     "offerPrice": 329.99,
-    "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/m16coelz8ivkk9f0nwrz.webp"
+    "image": [assets.header_playstation_image,
+      // "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/m16coelz8ivkk9f0nwrz.webp"
     ],
-    "category": "Headphone",
+    "category": "Bebida",
     "date": 1738667310300,
     "__v": 0
   },
   {
     "_id": "67a1f5663f34a77b6dde914c",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "Samsung Galaxy S23",
-    "description": "The Samsung Galaxy S23 offers an all-encompassing mobile experience with its advanced AMOLED display, offering vibrant visuals and smooth interactions. Equipped with top-of-the-line fitness tracking features and cutting-edge technology, this phone delivers outstanding performance. With powerful hardware, a sleek design, and long battery life, the S23 is perfect for those who demand the best in mobile innovation.",
+    "name": "Cerveja Heineken 330ml",
+    "description": "Cerveja Heineken é uma cerveja premium do estilo Lager, conhecida mundialmente por seu sabor equilibrado e refrescante. Com um leve amargor e notas sutis de malte, a Heineken oferece uma experiência de degustação agradável e fácil de beber. Sua cor dourada clara e espuma cremosa tornam-na visualmente atraente. A Heineken é uma escolha popular para quem busca uma cerveja de qualidade, ideal para acompanhar refeições variadas ou para ser apreciada em momentos de descontração.",
     "price": 899.99,
     "offerPrice": 799.99,
-    "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/xjd4eprpwqs7odbera1w.webp"
+    "image": [assets.header_headphone_image,
+      // "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/xjd4eprpwqs7odbera1w.webp"
     ],
-    "category": "Smartphone",
+    "category": "Bebida",
     "date": 1738667366224,
     "__v": 0
   },
   {
     "_id": "67a1f5993f34a77b6dde914e",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "Garmin Venu 2",
-    "description": "The Garmin Venu 2 smartwatch blends advanced fitness tracking with sophisticated design, offering a wealth of features such as heart rate monitoring, GPS, and sleep tracking. Built with a 24-hour battery life, this watch is ideal for fitness enthusiasts and anyone looking to enhance their daily lifestyle. With a stunning AMOLED display and customizable watch faces, the Venu 2 combines technology with style seamlessly.",
+    "name": "Balde de Heineken",
+    "description": "Balde de Cerveja Heineken é a escolha perfeita para quem deseja desfrutar de uma experiência refrescante e social. Com capacidade para várias garrafas ou latas, o balde mantém suas cervejas geladas por mais tempo, ideal para encontros com amigos ou celebrações. Feito de materiais duráveis, o balde é prático e fácil de transportar, tornando-o um acessório indispensável para qualquer ocasião. Aproveite a qualidade e o sabor inconfundível da Heineken com estilo e conveniência.",
     "price": 399.99,
     "offerPrice": 349.99,
-    "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/hdfi4u3fmprazpnrnaga.webp"
+    "image": [assets.venu_watch_image,
+      // "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/hdfi4u3fmprazpnrnaga.webp"
     ],
-    "category": "Earphone",
+    "category": "Bebida",
     "date": 1738667417511,
     "__v": 0
   },
   {
     "_id": "67a1f5ef3f34a77b6dde9150",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "PlayStation 5",
-    "description": "The PlayStation 5 takes gaming to the next level with ultra-HD graphics, a powerful 825GB SSD, and ray tracing technology for realistic visuals. Whether you're into high-action games or immersive storytelling, the PS5 delivers fast loading times, seamless gameplay, and stunning visuals. It's a must-have for any serious gamer looking for the ultimate gaming experience.",
+    "name": "Balde de Budweiser",
+    "description": "Balde de Cerveja Budweiser é a escolha ideal para quem deseja compartilhar momentos especiais com amigos e familiares. Com capacidade para várias garrafas ou latas, o balde mantém suas cervejas geladas por mais tempo, garantindo uma experiência refrescante. Feito de materiais resistentes, o balde é prático e fácil de transportar, perfeito para festas, churrascos ou encontros ao ar livre. Aproveite o sabor inconfundível da Budweiser com estilo e conveniência.",
     "price": 599.99,
     "offerPrice": 499.99,
-    "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/dd3l13vfoartrgbvkkh5.webp"
+    "image": [assets.macbook_image,
+      // "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/dd3l13vfoartrgbvkkh5.webp"
     ],
-    "category": "Accessories",
+    "category": "Bebida",
     "date": 1738667503075,
     "__v": 0
   },
   {
     "_id": "67a1f70c3f34a77b6dde9156",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "Canon EOS R5",
-    "description": "The Canon EOS R5 is a game-changing mirrorless camera with a 45MP full-frame sensor, offering ultra-high resolution and the ability to shoot 8K video. Whether you're capturing professional-quality stills or cinematic video footage, this camera delivers exceptional clarity, speed, and color accuracy. With advanced autofocus and in-body stabilization, the R5 is ideal for photographers and videographers alike.",
+    "name": "Drink Azul Estranho",
+    "description": "Drink Azul Estranho é uma bebida exótica e vibrante, perfeita para quem busca uma experiência única. Com uma combinação de sabores frutados e um toque de doçura, este drink é visualmente impressionante graças à sua cor azul intensa. Ideal para festas e eventos especiais, o Drink Azul Estranho é servido gelado, proporcionando uma sensação refrescante a cada gole. Surpreenda seus convidados com esta bebida intrigante e deliciosa.",
     "price": 4199.99,
     "offerPrice": 3899.99,
-    "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/r5h370zuujvrw461c6wy.webp"
+    "image": [assets.cannon_camera_image
+      // "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/r5h370zuujvrw461c6wy.webp"
     ],
-    "category": "Camera",
+    "category": "Bebida",
     "date": 1738667788883,
     "__v": 0
   },
   {
     "_id": "67a1f7c93f34a77b6dde915a",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "MacBook Pro 16",
-    "description": "The MacBook Pro 16, powered by Apple's M2 Pro chip, offers outstanding performance with 16GB RAM and a 512GB SSD. Whether you're editing high-resolution video, developing software, or multitasking with ease, this laptop can handle the toughest tasks. It features a stunning Retina display with True Tone technology, making it a top choice for professionals in creative industries or anyone who demands premium performance in a portable form.",
+    "name": "Drink Amarelo",
+    "description": "Drink Amarelo é uma bebida refrescante e vibrante, perfeita para quem busca uma experiência única. Com uma combinação de sabores cítricos e um toque de doçura, este drink é visualmente atraente graças à sua cor amarela intensa. Ideal para festas e eventos especiais, o Drink Amarelo é servido gelado, proporcionando uma sensação revigorante a cada gole. Surpreenda seus convidados com esta bebida deliciosa e cheia de energia.",
     "price": 2799.99,
     "offerPrice": 2499.99,
-    "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/rzri7kytphxalrm9rubd.webp"
+    "image": [assets.playstation_image
+      // "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/rzri7kytphxalrm9rubd.webp"
     ],
-    "category": "Laptop",
+    "category": "Bebida",
     "date": 1738667977644,
     "__v": 0
   },
   {
     "_id": "67a1f8363f34a77b6dde915c",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "Sony WF-1000XM5",
-    "description": "Sony WF-1000XM5 true wireless earbuds deliver immersive sound with Hi-Res Audio and advanced noise cancellation technology. Designed for comfort and quality, they provide a stable, snug fit for a secure listening experience. Whether you're working out or traveling, these earbuds will keep you connected with the world around you while enjoying rich, clear sound.",
+    "name": "Jack Daniel's 1L",
+    "description": "Jack Daniel's é um uísque americano de renome mundial, conhecido por seu sabor suave e característico. Produzido na destilaria Jack Daniel's em Lynchburg, Tennessee, este uísque é feito a partir de uma receita tradicional que inclui a filtragem através de carvão vegetal, conferindo-lhe um perfil de sabor único. Com notas de caramelo, baunilha e um toque defumado, o Jack Daniel's é perfeito para ser apreciado puro, com gelo ou em coquetéis clássicos como o Old Fashioned. Uma escolha icônica para os amantes de uísque.",
     "price": 349.99,
     "offerPrice": 299.99,
-    "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/e3zjaupyumdkladmytke.webp"
+    "image": [assets.sony_airbuds_image,
+      // "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/e3zjaupyumdkladmytke.webp"
     ],
-    "category": "Earphone",
+    "category": "Bebida",
     "date": 1738668086331,
     "__v": 0
   },
   {
     "_id": "67a1f85e3f34a77b6dde915e",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "Samsung Projector 4k",
-    "description": "The Samsung 4K Projector offers an immersive cinematic experience with ultra-high-definition visuals and realistic color accuracy. Equipped with a built-in speaker, it delivers rich sound quality to complement its stunning 4K resolution. Perfect for movie nights, gaming, or presentations, this projector is the ultimate choice for creating an at-home theater experience or professional setting.",
+    "name": "Smirnoff 1L",
+    "description": "Smirnoff é uma vodka premium de renome mundial, conhecida por sua pureza e sabor suave. Produzida a partir de grãos selecionados e destilada várias vezes, a Smirnoff oferece uma experiência de degustação limpa e refrescante. Com notas sutis de baunilha e um toque adocicado, esta vodka é versátil e perfeita para ser apreciada pura, com gelo ou em uma variedade de coquetéis clássicos como o Moscow Mule ou o Cosmopolitan. Uma escolha popular entre os amantes de vodka que buscam qualidade e sabor excepcionais.",
     "price": 1699.99,
     "offerPrice": 1499.99,
-    "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/qqdcly8a8vkyciy9g0bw.webp"
+    "image": [assets.projector_image,
+      // "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/qqdcly8a8vkyciy9g0bw.webp"
     ],
-    "category": "Accessories",
+    "category": "Bebida",
     "date": 1738668126660,
     "__v": 0
   },
   {
     "_id": "67a1fa4b3f34a77b6dde9166",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "ASUS ROG Zephyrus G16",
-    "description": "The ASUS ROG Zephyrus G16 gaming laptop is powered by the Intel Core i9 processor and features an RTX 4070 GPU, delivering top-tier gaming and performance. With 16GB of RAM and a 1TB SSD, this laptop is designed for gamers who demand extreme power, speed, and storage. Equipped with a stunning 16-inch display, it's built to handle the most demanding titles and applications with ease.",
+    "name": "Buchanan's 1L",
+    "description": "Buchanan's é um uísque escocês de prestígio, conhecido por sua suavidade e complexidade de sabores. Com uma mistura cuidadosamente selecionada de maltes e grãos, o Buchanan's oferece notas ricas de caramelo, baunilha e frutas secas, proporcionando uma experiência de degustação sofisticada. Ideal para ser apreciado puro, com gelo ou em coquetéis clássicos, o Buchanan's é uma escolha refinada para os amantes de uísque que buscam qualidade e tradição em cada gole.",
     "price": 2199.99,
     "offerPrice": 1999.99,
-    "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/wig1urqgnkeyp4t2rtso.webp"
+    "image": [assets.asus_laptop_image,
+       
+      //"https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/wig1urqgnkeyp4t2rtso.webp"
     ],
-    "category": "Laptop",
+    "category": "Bebida",
     "date": 1738668619198,
     "__v": 0
   }

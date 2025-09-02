@@ -1,7 +1,9 @@
 'use client'
 import { productsDummyData, userDummyData } from "@/assets/assets";
+import { useUser } from "@clerk/nextjs";
 import { useRouter } from "next/navigation";
 import { createContext, useContext, useEffect, useState } from "react";
+import toast from "react-hot-toast";
 
 export const AppContext = createContext();
 
@@ -13,6 +15,8 @@ export const AppContextProvider = (props) => {
 
     const currency = process.env.NEXT_PUBLIC_CURRENCY
     const router = useRouter()
+    
+    const { user } = useUser()
 
     const [products, setProducts] = useState([])
     const [userData, setUserData] = useState(false)
@@ -37,6 +41,16 @@ export const AppContextProvider = (props) => {
             cartData[itemId] = 1;
         }
         setCartItems(cartData);
+        if (user) {
+            try {
+                await axios.post('/api/cart/update', { cartData })
+                toast.success("Item added to cart")
+
+            } catch (error) {
+                toast.error(error.message)
+
+            }
+        }
 
     }
 
@@ -49,6 +63,16 @@ export const AppContextProvider = (props) => {
             cartData[itemId] = quantity;
         }
         setCartItems(cartData)
+        if (user) {
+            try {
+                await axios.post('/api/cart/update', { cartData })
+                toast.success("Cart updated")
+
+            } catch (error) {
+                toast.error(error.message)
+
+            }
+        }
 
     }
 
@@ -82,6 +106,7 @@ export const AppContextProvider = (props) => {
     }, [])
 
     const value = {
+        user,
         currency, router,
         isSeller, setIsSeller,
         userData, fetchUserData,

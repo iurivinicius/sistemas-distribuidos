@@ -4,12 +4,22 @@ import React, { useEffect, useState } from "react";
 
 const OrderSummary = () => {
 
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleOpen = () => setIsOpen(true);
+  const handleClose = () => {
+    setIsOpen(false);
+     window.location.reload();
+  }
+
+
   const { currency, router, getCartCount, getCartAmount } = useAppContext()
   const [selectedAddress, setSelectedAddress] = useState(null);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   const [userAddresses, setUserAddresses] = useState([]);
 
+  
   const fetchUserAddresses = async () => {
     setUserAddresses(addressDummyData);
   }
@@ -30,13 +40,13 @@ const OrderSummary = () => {
   return (
     <div className="w-full md:w-96 bg-gray-500/5 p-5">
       <h2 className="text-xl md:text-2xl font-medium text-gray-700">
-        Order Summary
+        Finalize seu pedido
       </h2>
       <hr className="border-gray-500/30 my-5" />
       <div className="space-y-6">
         <div>
           <label className="text-base font-medium uppercase text-gray-600 block mb-2">
-            Select Address
+            Selecione o Endereço [Delivery]
           </label>
           <div className="relative inline-block w-full text-sm border">
             <button
@@ -46,7 +56,7 @@ const OrderSummary = () => {
               <span>
                 {selectedAddress
                   ? `${selectedAddress.fullName}, ${selectedAddress.area}, ${selectedAddress.city}, ${selectedAddress.state}`
-                  : "Select Address"}
+                  : "Selecione um endereço"}
               </span>
               <svg className={`w-5 h-5 inline float-right transition-transform duration-200 ${isDropdownOpen ? "rotate-0" : "-rotate-90"}`}
                 xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="#6B7280"
@@ -70,7 +80,7 @@ const OrderSummary = () => {
                   onClick={() => router.push("/add-address")}
                   className="px-4 py-2 hover:bg-gray-500/10 cursor-pointer text-center"
                 >
-                  + Add New Address
+                  + Adicionar Novo Endereço
                 </li>
               </ul>
             )}
@@ -84,11 +94,11 @@ const OrderSummary = () => {
           <div className="flex flex-col items-start gap-3">
             <input
               type="text"
-              placeholder="Enter promo code"
+              placeholder="Coloque seu código aqui"
               className="flex-grow w-full outline-none p-2.5 text-gray-600 border"
             />
             <button className="bg-orange-600 text-white px-9 py-2 hover:bg-orange-700">
-              Apply
+              Aplicar
             </button>
           </div>
         </div>
@@ -101,11 +111,11 @@ const OrderSummary = () => {
             <p className="text-gray-800">{currency}{getCartAmount()}</p>
           </div>
           <div className="flex justify-between">
-            <p className="text-gray-600">Shipping Fee</p>
-            <p className="font-medium text-gray-800">Free</p>
+            <p className="text-gray-600">Taxa de envio</p>
+            <p className="font-medium text-gray-800">Livre</p>
           </div>
           <div className="flex justify-between">
-            <p className="text-gray-600">Tax (2%)</p>
+            <p className="text-gray-600">Taxa (2%)</p>
             <p className="font-medium text-gray-800">{currency}{Math.floor(getCartAmount() * 0.02)}</p>
           </div>
           <div className="flex justify-between text-lg md:text-xl font-medium border-t pt-3">
@@ -115,11 +125,28 @@ const OrderSummary = () => {
         </div>
       </div>
 
-      <button onClick={createOrder} className="w-full bg-orange-600 text-white py-3 mt-5 hover:bg-orange-700">
-        Place Order
+      <button onClick={handleOpen} className="w-full bg-orange-600 text-white py-3 mt-5 hover:bg-orange-700">
+        Finalizar Pedido
       </button>
+      {isOpen && (
+        <div className="fixed inset-0 flex items-center justify-center bg-black/50 z-50">
+          <div className="bg-white p-5 rounded-2xl shadow-xl max-w-md w-full">
+            <img
+              src="https://raw.githubusercontent.com/iurivinicius/Software-de-venda/refs/heads/main/IMG_0859.png" // coloque sua imagem aqui
+              alt="Imagem de exemplo"
+              className="rounded-lg"
+            />
+            <button
+              onClick={handleClose}
+              className="mt-4 w-full bg-red-600 text-white py-2 rounded-lg hover:bg-red-700"
+            >
+              Fechar
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
-};
+}
 
 export default OrderSummary;
