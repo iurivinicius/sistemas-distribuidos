@@ -44,11 +44,11 @@ export const AppContextProvider = (props) => {
                 setUserData(data.user)
                 setCartItems(data.user.cartItems)
             } else {
-                toast.error(data.message)
+                // toast.error(data.message)
             }
 
         } catch (error) {
-            toast.error(error.message)
+            // toast.error(error.message)
         }
     }
 
@@ -70,7 +70,7 @@ export const AppContextProvider = (props) => {
                 toast.success("O item foi adicionado ao carrinho")
 
             } catch (error) {
-                toast.error(error.message)
+                // toast.error(error.message)
 
             }
         }
@@ -93,7 +93,7 @@ toast.success("O carrinho foi atualizado")
                 await axios.post('/api/cart/update', { cartData }, { headers: { Authorization: `Bearer ${token}` } })
                 toast.success("O carrinho foi atualizado")
             } catch (error) {
-                toast.error(error.message)
+                // toast.error(error.message)
 
             }
         }
