@@ -136,8 +136,8 @@ export const productsDummyData = [
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
     "name": "Cerveja Corona 355ml",
     "description": "Cerveja Corona Extra é uma cerveja leve e refrescante, perfeita para momentos de descontração. Com um sabor suave e equilibrado, é ideal para acompanhar refeições leves ou para ser apreciada em dias quentes. Sua garrafa transparente destaca a cor dourada da cerveja, tornando-a visualmente atraente. A Corona Extra é uma escolha popular entre os amantes de cerveja que buscam uma experiência refrescante e agradável.",
-    "price": 499.99,
-    "offerPrice": 399.99,
+    "price": 16.99,
+    "offerPrice": 14.99,
     "image": [assets.header_macbook_image,
       // "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/k4dafzhwhgcn5tnoylrw.webp",
       // "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/j212frakb8hdrhvhajhg.webp",
@@ -153,8 +153,8 @@ export const productsDummyData = [
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
     "name": "Cerveja Budweiser 355ml",
     "description": "Cerveja Budweiser é uma cerveja americana do estilo American Lager, conhecida por seu sabor suave e refrescante. Com um equilíbrio perfeito entre malte e lúpulo, a Budweiser oferece uma experiência de degustação agradável e fácil de beber. Sua cor dourada clara e espuma cremosa tornam-na visualmente atraente. A Budweiser é uma escolha popular para quem busca uma cerveja leve, ideal para acompanhar refeições variadas ou para ser apreciada em momentos de descontração.",
-    "price": 429.99,
-    "offerPrice": 329.99,
+    "price": 16.99,
+    "offerPrice": 14.99,
     "image": [assets.header_playstation_image,
       // "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/m16coelz8ivkk9f0nwrz.webp"
     ],
@@ -167,8 +167,8 @@ export const productsDummyData = [
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
     "name": "Cerveja Heineken 330ml",
     "description": "Cerveja Heineken é uma cerveja premium do estilo Lager, conhecida mundialmente por seu sabor equilibrado e refrescante. Com um leve amargor e notas sutis de malte, a Heineken oferece uma experiência de degustação agradável e fácil de beber. Sua cor dourada clara e espuma cremosa tornam-na visualmente atraente. A Heineken é uma escolha popular para quem busca uma cerveja de qualidade, ideal para acompanhar refeições variadas ou para ser apreciada em momentos de descontração.",
-    "price": 899.99,
-    "offerPrice": 799.99,
+    "price": 17.99,
+    "offerPrice": 16.99,
     "image": [assets.header_headphone_image,
       // "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/xjd4eprpwqs7odbera1w.webp"
     ],
@@ -181,8 +181,8 @@ export const productsDummyData = [
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
     "name": "Balde de Heineken",
     "description": "Balde de Cerveja Heineken é a escolha perfeita para quem deseja desfrutar de uma experiência refrescante e social. Com capacidade para várias garrafas ou latas, o balde mantém suas cervejas geladas por mais tempo, ideal para encontros com amigos ou celebrações. Feito de materiais duráveis, o balde é prático e fácil de transportar, tornando-o um acessório indispensável para qualquer ocasião. Aproveite a qualidade e o sabor inconfundível da Heineken com estilo e conveniência.",
-    "price": 399.99,
-    "offerPrice": 349.99,
+    "price": 90.99,
+    "offerPrice": 74.99,
     "image": [assets.venu_watch_image,
       // "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/hdfi4u3fmprazpnrnaga.webp"
     ],
@@ -195,8 +195,8 @@ export const productsDummyData = [
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
     "name": "Balde de Budweiser",
     "description": "Balde de Cerveja Budweiser é a escolha ideal para quem deseja compartilhar momentos especiais com amigos e familiares. Com capacidade para várias garrafas ou latas, o balde mantém suas cervejas geladas por mais tempo, garantindo uma experiência refrescante. Feito de materiais resistentes, o balde é prático e fácil de transportar, perfeito para festas, churrascos ou encontros ao ar livre. Aproveite o sabor inconfundível da Budweiser com estilo e conveniência.",
-    "price": 599.99,
-    "offerPrice": 499.99,
+    "price": 80.99,
+    "offerPrice": 64.99,
     "image": [assets.macbook_image,
       // "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/dd3l13vfoartrgbvkkh5.webp"
     ],
@@ -209,8 +209,8 @@ export const productsDummyData = [
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
     "name": "Drink Azul Estranho",
     "description": "Drink Azul Estranho é uma bebida exótica e vibrante, perfeita para quem busca uma experiência única. Com uma combinação de sabores frutados e um toque de doçura, este drink é visualmente impressionante graças à sua cor azul intensa. Ideal para festas e eventos especiais, o Drink Azul Estranho é servido gelado, proporcionando uma sensação refrescante a cada gole. Surpreenda seus convidados com esta bebida intrigante e deliciosa.",
-    "price": 4199.99,
-    "offerPrice": 3899.99,
+    "price": 20.00,
+    "offerPrice": 20.00,
     "image": [assets.cannon_camera_image
       // "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/r5h370zuujvrw461c6wy.webp"
     ],
@@ -224,7 +224,7 @@ export const productsDummyData = [
     "name": "Drink Amarelo",
     "description": "Drink Amarelo é uma bebida refrescante e vibrante, perfeita para quem busca uma experiência única. Com uma combinação de sabores cítricos e um toque de doçura, este drink é visualmente atraente graças à sua cor amarela intensa. Ideal para festas e eventos especiais, o Drink Amarelo é servido gelado, proporcionando uma sensação revigorante a cada gole. Surpreenda seus convidados com esta bebida deliciosa e cheia de energia.",
     "price": 2799.99,
-    "offerPrice": 2499.99,
+    "offerPrice": 18.00,
     "image": [assets.playstation_image
       // "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/rzri7kytphxalrm9rubd.webp"
     ],
@@ -238,7 +238,7 @@ export const productsDummyData = [
     "name": "Jack Daniel's 1L",
     "description": "Jack Daniel's é um uísque americano de renome mundial, conhecido por seu sabor suave e característico. Produzido na destilaria Jack Daniel's em Lynchburg, Tennessee, este uísque é feito a partir de uma receita tradicional que inclui a filtragem através de carvão vegetal, conferindo-lhe um perfil de sabor único. Com notas de caramelo, baunilha e um toque defumado, o Jack Daniel's é perfeito para ser apreciado puro, com gelo ou em coquetéis clássicos como o Old Fashioned. Uma escolha icônica para os amantes de uísque.",
     "price": 349.99,
-    "offerPrice": 299.99,
+    "offerPrice": 139.99,
     "image": [assets.sony_airbuds_image,
       // "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/e3zjaupyumdkladmytke.webp"
     ],
@@ -252,7 +252,7 @@ export const productsDummyData = [
     "name": "Smirnoff 1L",
     "description": "Smirnoff é uma vodka premium de renome mundial, conhecida por sua pureza e sabor suave. Produzida a partir de grãos selecionados e destilada várias vezes, a Smirnoff oferece uma experiência de degustação limpa e refrescante. Com notas sutis de baunilha e um toque adocicado, esta vodka é versátil e perfeita para ser apreciada pura, com gelo ou em uma variedade de coquetéis clássicos como o Moscow Mule ou o Cosmopolitan. Uma escolha popular entre os amantes de vodka que buscam qualidade e sabor excepcionais.",
     "price": 1699.99,
-    "offerPrice": 1499.99,
+    "offerPrice": 89.99,
     "image": [assets.projector_image,
       // "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/qqdcly8a8vkyciy9g0bw.webp"
     ],
